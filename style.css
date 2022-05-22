@@ -6,10 +6,12 @@
 .container{
     display: flex;
 }
+.container > div{
+    width: 50vw;
+}
 /* Left Container Starts */
 .left-container{
     margin-top: 20px;
-    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,16 +20,15 @@
     width: 100%;
 }
 #logo{
-    width: 200px;
+    max-width: 200px;
 }
 #medfes-img{
-    width: 550px;
+    max-width: 550px;
 }
 /* Left Container Ends */
 
 /* Right Container Starts */
 .right-container{
-    width: 50vw;
     margin: 50px;
     padding: 50px;
 }
@@ -105,3 +106,12 @@
 }
 /* Form Elements Ends */
 /* Right Container Ends */
+
+@media (max-width:1050px){
+    .container{
+        flex-wrap: wrap;
+    }
+    .container > div{
+        width: 100vw;
+    }
+}
