@@ -114,4 +114,8 @@
     .container > div{
         width: 100vw;
     }
+    .right-container{
+        margin: 10px;
+        padding: 10px;
+    }
 }
