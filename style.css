@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+}
+/* Left Container Starts */
+.left-container{
+    margin-top: 20px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-container img{
+    width: 100%;
+}
+#logo{
+    width: 200px;
+}
+#medfes-img{
+    width: 550px;
+}
+/* Left Container Ends */
+
+/* Right Container Starts */
+.right-container{
+    width: 50vw;
+    margin: 50px;
+    padding: 50px;
+}
+.right-container .head{
+    margin-bottom: 20px;
+}
+/* Form Elements Starts */
+.form {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+.form__input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 10px;
+    color: white;
+    font: 20px;
+}
+.form__label {
+    background-color: white;
+    color: black;
+    padding: 0 0.5rem;
+    position: absolute;   
+    left: 1rem;
+    top: 1rem;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown) ~ .form__label 
+{
+    top: -0.5rem;
+    font-size: 0.8rem;
+}
+
+#rem-forget{
+    display: flex;
+    justify-content: space-between;
+}
+#forget a{
+    color: #0d6efd;
+    text-decoration: none;
+    font-size: 14px;
+}
+.right-container button{
+    width: 100%;
+    padding: 15px 0;
+    margin: 10px 0;
+    background-color: #3F51B5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#OR{
+    position: relative;
+}
+#OR hr{
+    margin: 10px 0;
+    border: 1px solid gray;
+}
+#OR p{
+    position: absolute;
+    top: -7px;
+    left: 46%;
+    background-color: white;
+    padding: 0 10px;
+    color: gray;
+    text-align: center;
+}
+/* Form Elements Ends */
+/* Right Container Ends */
