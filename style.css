@@ -99,11 +99,11 @@
 #OR p{
     position: absolute;
     top: -7px;
-    left: 43%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: white;
     padding: 0 10px;
     color: gray;
-    text-align: center;
 }
 /* Form Elements Ends */
 /* Right Container Ends */
