@@ -30,6 +30,7 @@
 /* Right Container Starts */
 .right-container{
     margin: 50px;
+    margin-bottom : 15px;
     padding: 50px;
 }
 .right-container .head{
