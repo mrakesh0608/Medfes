@@ -21,6 +21,7 @@
 }
 #logo{
     max-width: 200px;
+    margin: 20px 0;
 }
 #medfes-img{
     max-width: 550px;
@@ -50,8 +51,11 @@
     border: 1px solid gray;
     border-radius: 10px;
     outline: none;
-    padding: 0 10px;
+    padding-left: 22px;
     font: 20px;
+}
+.form__input:focus{
+    border: 2px solid #3F51B5;
 }
 .form__label {
     background-color: white;
@@ -60,7 +64,7 @@
     position: absolute;   
     left: 1rem;
     top: 1rem;
-    transition: top 200ms ease-in, font-size 200ms ease-in;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
     cursor: text;
 }
 .form__input:focus ~ .form__label,
@@ -68,6 +72,7 @@
 {
     top: -0.5rem;
     font-size: 0.8rem;
+    color: #3F51B5;
 }
 
 #rem-forget{
