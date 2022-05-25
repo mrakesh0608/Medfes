@@ -1,6 +1,5 @@
-document.getElementById('toggle-register-btn').addEventListener('click',()=>toggle_form(1))
-document.getElementById('toggle-login-btn').addEventListener('click',()=>toggle_form(0))
-
+document.getElementById('toggle-register-btn').addEventListener('click',()=>toggle_form(1));
+document.getElementById('toggle-login-btn').addEventListener('click',()=>toggle_form(0));
 
 function toggle_form(val)
 {
