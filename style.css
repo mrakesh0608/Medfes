@@ -11,7 +11,7 @@
 }
 /* Left Container Starts */
 .left-container{
-    margin-top: 20px;
+    margin: 15px 5px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +88,12 @@
     border-radius: 5px;
     font-size: 16px;
 }
-
+.right-container button:hover{
+    cursor: pointer;
+}
+.right-container button:active{
+    background-color: #6576d9;
+}
 #OR{
     position: relative;
 }
@@ -111,6 +116,7 @@
 @media (max-width:1050px){
     .container{
         flex-wrap: wrap;
+        height: auto;
     }
     .container > div{
         width: 100vw;
@@ -119,4 +125,8 @@
         margin: 10px;
         padding: 10px;
     }
+}
+
+#Register{
+    display: none;
 }
