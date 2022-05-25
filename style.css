@@ -75,7 +75,7 @@
     justify-content: space-between;
     align-items: center;
 }
-#forget a{
+#t-c a,#forget a{
     color: #0d6efd;
     text-decoration: none;
     font-size: 14px;
