@@ -12,8 +12,8 @@ function toggle_form(val){
 }
 
 const label = document.getElementsByClassName('form__label');
-Array.from(label).forEach(element =>{
-    element.addEventListener('click',(e)=>{
+Array.from(label).forEach( element =>{
+    element.addEventListener('click', (e) =>{
         element.previousElementSibling.focus();
-    })
+    });
 });
