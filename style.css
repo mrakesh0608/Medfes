@@ -109,7 +109,7 @@
 }
 #OR hr{
     margin: 10px 0;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 #OR p{
     position: absolute;
@@ -121,8 +121,12 @@
     color: gray;
 }
 /* Form Elements Ends */
+#Register{
+    display: none;
+}
 /* Right Container Ends */
 
+/* Media Queries Starts */
 @media (max-width:1050px){
     .container{
         flex-wrap: wrap;
@@ -136,7 +140,4 @@
         padding: 10px;
     }
 }
-
-#Register{
-    display: none;
-}
+/* Media Queries Ends */
